@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+
+    <style>
+        body {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        table, tr, td{
+            border: 3px solid green;
+            background-color: lightgreen;
+            padding: 45px;
+            width: 500px;
+            border-collapse: collapse;
+            margin: 0 auto;
+            justify-content: center;
+            margin-bottom: 50px;
+            font-family: fantasy;
+            font-size: 1.2rem;
+        }
+
+        main {
+            display:flex; gap: 1rem; justify-content: space-evenly; width: 100%;
+        }
+
+        button {
+            background-color: grey;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Atividade 3</h1>
+    </header>
+    <main>
+        <!-- Exercicio 1 -->
+        <section>
+            <h2>Tabela 1</h2>
+              <table>
+                <thead>
+                    <td colspan="3">1</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+            <!-- Exercicio 2 -->
+        <section>
+            <h2>Tabela 2</h2>
+              <table>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+            <!-- Exercicio 3 -->
+        <section>
+            <h2>Tabela 3</h2>
+              <table>
+                <tbody>
+                    <tr>
+                        <td colspan="5">1</td>                       
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="5">2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>  
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td rowspan="2">9</td>
+                        <td>10</td>
+                    </tr>
+
+                    <tr>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="3">14</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>    
+    </main>
+    <section>
+         <!-- Botão [INDEX] -->
+        <button>
+            <a href="../index.html">Voltar</a>
+         </button>
+    </section>
+</body>
+
+</html>
